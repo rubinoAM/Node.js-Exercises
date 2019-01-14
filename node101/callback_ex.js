@@ -15,13 +15,13 @@ squareIt(multiplyEm);
 //Exercise 3
 function marlonBrando(n){
     if(typeof(n) == 'object'){
-        console.log(n.keys())
+        return n.keys();
     } else if(typeof(n) == 'function'){
         n();
     } else if(Array.isArray(n)){
-        console.log(n[0])
+        return n[0];
     } else{
-        console.log(n);
+        return n;
     }
 }
 
@@ -31,7 +31,7 @@ function findElement(param1,param2){
     if(Array.isArray(param1) && typeof(param2) == "function"){
         for(let i=0; i<param1.length;i++){
             if(param2(param1[i]) == true){
-                console.log(param1[i]);
+                return param1[i];
                 i = param1.length;
             }
         }
