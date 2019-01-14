@@ -8,5 +8,8 @@ let atlTeams = {
 console.log(atlTeams);
 
 // Require in node.js is equivalent to "from * import *" in Python
-const http = require('http');
-console.log(http);
+const os = require('os');
+console.log(os);
+
+const cpus = os.cpus();
+console.log(cpus);
