@@ -13,3 +13,5 @@ console.log(os);
 
 const cpus = os.cpus();
 console.log(cpus);
+
+//npm init creates a package.json file

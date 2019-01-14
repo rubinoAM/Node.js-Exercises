@@ -1,0 +1,15 @@
+{
+  "name": "node101",
+  "version": "1.0.0",
+  "description": "Node.js Exercises/node101",
+  "main": "newFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type":"git",
+    "url":"git+https://github.com/rubinoAM/Node.js-Exercises"},
+  "keywords": ["node","js","javascript","npm"],
+  "author": "Michael Rubino",
+  "license": "ISC"
+}
