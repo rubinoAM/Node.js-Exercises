@@ -7,9 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type":"git",
-    "url":"git+https://github.com/rubinoAM/Node.js-Exercises"},
-  "keywords": ["node","js","javascript","npm"],
+    "type": "git",
+    "url": "git+https://github.com/rubinoAM/Node.js-Exercises"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "javascript",
+    "npm"
+  ],
   "author": "Michael Rubino",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
