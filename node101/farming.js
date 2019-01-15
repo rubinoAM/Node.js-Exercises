@@ -94,4 +94,22 @@ const rry = [1,2,3,4,5];
 const sum = rry.reduce((n,aggTotal)=>{
     return aggTotal += n;
 })
-console.log(sum);
+//console.log(sum);
+
+/*filter() is exactly the same as map() EXCEPT
+  map() pushes something on every element
+  filter() only pushes something on for elements that return true*/
+const inNA = cropInfo.filter((plant)=>{
+    return plant.nativeTo.indexOf("North America") > -1;
+})
+//console.log(inNA);
+
+//sort()
+const arr = [4,6,1,7,2];
+const sorted = arr.sort()
+//console.log(sorted);
+
+const sortedCrops = cropInfo.sort((a,b)=>{
+    return a.crop - b.crop;
+})
+console.log(sortedCrops);
