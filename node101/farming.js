@@ -87,4 +87,11 @@ cropInfo.forEach((plant)=>{
 const newArr = cropInfo.map((plant)=>{
     return plant.crop;
 })
-console.log(newArr);
+//console.log(newArr);
+
+//reduce() takes an array and condenses it into one thing
+const rry = [1,2,3,4,5];
+const sum = rry.reduce((n,aggTotal)=>{
+    return aggTotal += n;
+})
+console.log(sum);
