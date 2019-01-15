@@ -11,7 +11,3 @@ const server = http.createServer((req,res)=>{
 });
 server.listen(3000); //Don't use ports below 1000!!!!
 
-//const http = {}
-//http.createServer = function(callback){
-
-//}
