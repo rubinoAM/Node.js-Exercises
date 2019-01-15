@@ -73,7 +73,7 @@ const chinaCrop = cropInfo.find((plant)=>{
 //forEach()
 cropInfo.forEach((plant)=>{
     plant.rank = Math.floor(Math.random()*10);
-    console.log(plant.rank+". "+plant.crop);
+    //console.log(plant.rank+". "+plant.crop);
 })
 /*Here's how forEach() works in essence:
     Array.prototype.forEach = function(callback){
@@ -83,3 +83,8 @@ cropInfo.forEach((plant)=>{
     }
 */
 
+//map takes 1 arg: a callback
+const newArr = cropInfo.map((plant)=>{
+    return plant.crop;
+})
+console.log(newArr);
