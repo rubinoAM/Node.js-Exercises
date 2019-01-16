@@ -1,0 +1,29 @@
+/*Index CSS*/
+.img{
+    width:100%;
+}
+
+.col-left{
+    border-right:1px solid #000;
+}
+
+.divider{
+    width:100%;
+    border-bottom:1px solid #000;
+    margin:3rem 0;
+}
+
+/*404 CSS*/
+.padding{
+    margin-top:7rem;
+}
+
+.error-head{
+    font-size:10rem;
+}
+
+.error-body{
+    font-size:2rem;
+    position:relative;
+    bottom:3rem;
+}
